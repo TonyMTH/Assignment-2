@@ -37,3 +37,15 @@ class Samsumg extends Mobile{
         return "Camera clicked in " + CameraMode + " Mode";  
     }  
 }
+
+class Nokia extends Mobile{
+    GetBlueToothConnection(){  
+        return "Bluetooth connected";  
+    }  
+   
+    //New implementation for this method which was available in Mobile Class  
+    //This is runtime polymorphism  
+    SendMessage(){  
+        return "Message Sent to a group";  
+    }
+}
