@@ -25,3 +25,15 @@ class Mobile {
     	return "Message Sent";  
     }
 }
+
+class Samsumg extends Mobile{  
+    GetWIFIConnection(){  
+        return "WIFI connected";  
+    }  
+  
+    //This is one overloaded method which shows camera functionality as well but with its camera's different mode(panaroma)  
+    CameraClick(CameraMode)  
+    {  
+        return "Camera clicked in " + CameraMode + " Mode";  
+    }  
+}
